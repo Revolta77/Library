@@ -1,0 +1,117 @@
+body::before {
+    background-image: url(/images/background.jpeg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+}
+body {
+    font-family: 'Courgette', cursive;
+}
+
+.container.backgrounded {
+    background: #00000045;
+}
+
+body.text-gold {
+    color: #ffcb21;
+}
+
+button {
+    color: #ffcb21 !important;
+}
+
+/*table#dtBasicExample th.first {*/
+/*    width: 33%;*/
+/*}*/
+
+table#dtBasicExample {
+    background-color: floralwhite;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+.page-item.active .page-link {
+    background-color: #ffcb21 !important;
+    border-color: #ffcb21 !important;
+}
+
+a.page-link {
+    color: black;
+}
+
+.page-link:hover {
+    color: #ffcb21;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+    color: #262626 !important;
+    padding-left: 5px;
+    background-color: #f8f9fa!important;
+}
+
+.ui-autocomplete > li > div {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333 !important;
+    white-space: nowrap;
+}
+
+.ui-state-hover,
+.ui-state-active,
+.ui-state-focus {
+    text-decoration: none;
+    color: #262626 !important;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    padding-left: 3px;
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    color: #262626 !important;
+    padding-left: 3px !important;
+}
